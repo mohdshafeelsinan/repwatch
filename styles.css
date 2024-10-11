@@ -6,6 +6,30 @@ body {
     background-color: #f4f4f4;
 }
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
 .container {
     text-align: center;
     padding: 50px;
@@ -28,6 +52,20 @@ p {
     margin-bottom: 30px;
 }
 
+.slides {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.slide {
+    flex: 1;
+    padding: 20px;
+    background-color: #eaeaea;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
 button {
     background-color: #007BFF;
     color: #fff;
@@ -41,4 +79,14 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
